@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.cache/
+.upm/
+.local/
+*.zip
+.env
+.env.local
+.env.production
+.env.development
+.replit
+replit.md
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+attached_assets/UNIVERSAL_REPLIT_PROMPT_*.md

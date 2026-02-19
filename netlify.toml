@@ -1,0 +1,17 @@
+[build]
+  command = "npx vite build --config vite.config.netlify.ts"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "https://wantasmoothie.com/*"
+  to = "https://www.wantasmoothie.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
